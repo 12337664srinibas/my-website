@@ -1,0 +1,60 @@
+/* Custom styles for the contact us modal */
+.modal-body {
+    padding: 20px;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgba(252, 237, 237, 0.5);
+}
+
+.overlay {
+    display: none;
+    background-color: rgba(225, 25, 25, 0.7);
+    color: black;
+    padding: 1rem;
+}
+
+.carousel-item:hover .overlay {
+    display: block;
+}
+
+/* Our Project Section */
+#project-image {
+    height: 400px;
+    object-fit: cover;
+}
+
+.list-group-item {
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #2f79c8;
+    color: black;
+    box-shadow: 0 4px 8px rgba(124, 172, 115, 0.2);
+    transform: scale(1.05);
+}
